@@ -39,7 +39,6 @@ const client = createClient({
   apiVersion: "2022-02-03",
   useCdn: false,
 });
-
 const builder = imageUrlBuilder(client);
 const urlFor = (source: Product["image"]["asset"]) => builder.image(source);
 
