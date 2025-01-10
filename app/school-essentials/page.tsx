@@ -49,13 +49,13 @@ const Page = async() => {
       <h1 className='font-bold lg:text-6xl text-pink-700 font-dancing text-center
           xs:text-2xl md:text-5xl'>School Essentials</h1>
           <div className="grid lg:grid-cols-4 gap-8 mt-10
-        xs:grid-cols-2 md:grid-cols-3">
+        xs:grid-cols-1 md:grid-cols-3">
           {products.map(product => (
             <div key={product._id}>
               <Link href={product.slug.current}>
               <div
                 className="lg:h-[400px] bg-white p-7 rounded-xl shadow-lg flex flex-col
-        transition hover:scale-105 items-center xs:h-[200px]"
+        transition hover:scale-105 items-center xs:h-[300px]"
               >
                 <div className="xs:w-[100px] xs:h-[150px] overflow-hidden md:h-[150px]
                 lg:h-[280px] lg:w-[200px]">
